@@ -55,11 +55,11 @@ function ButtonsHolder(props: {
     return (
         <div id="buttons-holder">
             <div className={'button smash-button ' + (smashButtonAnimated ? 'smash-button-anim' : '')} onClick={smashClick}>
-                {props.character.smashText ?? (props.character.filly ? 'Cute!' : 'SMASH!')} (←)
+                {props.character.smashText ?? (props.character.filly ? 'PLAP PLAP PLAP PLAP PLAP PLAP' : 'SMASH!')} (←)
                 <div className='button-combo'>{smashStreak.current}x</div>
             </div>
             <div className={'button pass-button ' + (passButtonAnimated ? 'pass-button-anim' : '')} onClick={passClick}>
-                {props.character.passText ?? (props.character.filly ? 'Not cute' : 'Pass')} (→)
+                {props.character.passText ?? (props.character.filly ? 'I am in fact not fond of having a brain' : 'Pass')} (→)
                 <div className='button-combo'>{passStreak.current}x</div>
             </div>
         </div>
