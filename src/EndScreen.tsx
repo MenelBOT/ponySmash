@@ -13,7 +13,7 @@ function EndScreen(props: {
 
     return (
         <>
-            <p className='pony-name'>Its over!, You would smash{props.smashes.current.filter((e) => e.filly === true).length > 0 ? ' or absolutely rearrange insides of ' : ''} {props.smashes.current.length} out of {props.list.current.length} characters.</p>
+            <p className='pony-name'>Its over!, You would smash{props.smashes.current.filter((e) => e.filly === true).length > 0 ? ' or UWA ' : ''} {props.smashes.current.length} out of {props.list.current.length} characters.</p>
             {
                 (() => {
                     switch (props.listType.current) {
