@@ -43,7 +43,7 @@ const Lists = {
                     charProp: 'filly',
                     against: true
                 },
-                value: false
+                value: true
             },
             'showFemales': {
                 text: 'Show females',
@@ -247,7 +247,7 @@ const Lists = {
                     charProp: 'filly',
                     against: true
                 },
-                value: false
+                value: true
             },
             'showFemales': {
                 text: 'Show females',
@@ -283,7 +283,7 @@ const Lists = {
                     charProp: 'filly',
                     against: true
                 },
-                value: false
+                value: true
             },
             'showFemales': {
                 text: 'Show females',
@@ -319,7 +319,7 @@ const Lists = {
                     charProp: 'filly',
                     against: true
                 },
-                value: false
+                value: true
             },
             'showFemales': {
                 text: 'Show females',
